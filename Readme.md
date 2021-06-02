@@ -1,7 +1,7 @@
-#Git Course
+# Git Course
 Este é um repositorio teste para ensinar como o Git funciona.
 
-#Comandos 
+# Comandos 
  - git log -: mostra todos os commits e o author
  - git log --decorate: mostra qual branch foi para qual branch
  - git log --author="nome_do_author": mostro todos os commits do author
@@ -11,7 +11,7 @@ Este é um repositorio teste para ensinar como o Git funciona.
  - git diff:detalhes da moficação feita.[utilizar antes do commit]
  - git diff --name-only :mostra somente o nome do arquivo modificado
 
- #Comandos Especiais
+ # Comandos Especiais
  - git checkout [nome_do_arquivo]: Retorna o arquivo para antes dele salvo
     - git reset HEAD [nome_do_arquivo]
     
