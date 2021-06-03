@@ -31,7 +31,6 @@ Este é um repositorio teste para ensinar como o Git funciona.
    - git show [rash] mostra o que foi adicionado
    - git diff detalhes da moficação feita.[utilizar antes do commit]
    - git diff --name-only mostra somente o nome do arquivo modificado
-
-   # Comandos Especiais:
    - git checkout [nome_do_arquivo]: Retorna o arquivo para antes dele salvo
       - git reset HEAD [nome_do_arquivo]
+   
