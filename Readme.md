@@ -15,7 +15,12 @@ Este é um repositorio teste para ensinar como o Git funciona.
    - git branch -D [nome_do_branch] deleta um branch
    - git merge [nome_da_branch] Mesclar o branch com o master
    - git rebase [nome_da_branch] Aplica a modificação pro topo da lista de commits
-   
+
+   # Git Stash
+   - git stash guarda a modificação feita
+   - git stash apply  aplica as mudanças guardadas
+   - git stash list mostra a lista de todos os stash guardados
+   - git stash clear limpa o stash todo
 
    # Comandos Especiais:
    - git log - mostra todos os commits e o author
