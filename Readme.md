@@ -8,7 +8,16 @@ Este é um repositorio teste para ensinar como o Git funciona.
    - cd [nome_da_pasta] entrando na pasta do projeto;
    - git init inicializando o repositório git;   
    
-   # Comandos Especiais
+   # Criando uma nova Branch:
+   - git checkout -b [nome_do_branch]
+   - git branch mostra qual branch tem e a que está
+   - git checkout [nome_do_branch] ir para algum branch
+   - git branch -D [nome_do_branch] deleta um branch
+   - git merge [nome_da_branch] Mesclar o branch com o master
+   - git rebase [nome_da_branch] Aplica a modificação pro topo da lista de commits
+   
+
+   # Comandos Especiais:
    - git log - mostra todos os commits e o author
    - git log --decorate mostra qual branch foi para qual branch
    - git log --author="nome_do_author" mostro todos os commits do author
@@ -18,6 +27,6 @@ Este é um repositorio teste para ensinar como o Git funciona.
    - git diff detalhes da moficação feita.[utilizar antes do commit]
    - git diff --name-only mostra somente o nome do arquivo modificado
 
-   # Comandos Especiais
+   # Comandos Especiais:
    - git checkout [nome_do_arquivo]: Retorna o arquivo para antes dele salvo
       - git reset HEAD [nome_do_arquivo]
