@@ -33,4 +33,5 @@ Este é um repositorio teste para ensinar como o Git funciona.
    - git diff --name-only mostra somente o nome do arquivo modificado
    - git checkout [nome_do_arquivo]: Retorna o arquivo para antes dele salvo
       - git reset HEAD [nome_do_arquivo]
+   - git reset --hard [rash] volta para um commit específico
    
