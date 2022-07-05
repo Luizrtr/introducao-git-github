@@ -12,6 +12,7 @@ Este é um repositório teste para ensinar como o Git funciona.
    # Criando uma nova Branch:
    O Branch é basicamente um ramo do seu projeto, muito utilizado para testar funcionalidades em desenvolvimento.
    - `git checkout -b [nome_do_branch]`
+   - `git push --set-upstream origin [nome_do_branch]` subir a branch
    - `git branch` lista todos os branches e em qual você está
    - `git checkout [nome_do_branch]` ir para algum branch
    - `git branch -D [nome_do_branch]` deleta um branch
