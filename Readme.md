@@ -4,38 +4,37 @@ That is a repository for helping with the Git.
 # Commands
    In your terminal you can enter all the list commands. The commands that start with `git` need a tool [git](https://git-scm.com/downloads) installed in your machine.
    # Creating the project:
-   - `mkdir [folder_name]` criando a pasta do projeto;
-   - `cd [.]` entrando na pasta do projeto;
-      * Use `cd ../` para voltar uma pasta
-   - `git init` inicializando o repositório git;   
+   - `mkdir [folder_name]` creating the project folder;
+   - `cd [.folder_name]` accessing the project folder;
+      * Use `cd ../` to return the folder;
+   - `git init` starting the git repository;   
    
-   # Criando uma nova Branch:
-   O Branch é basicamente um ramo do seu projeto, muito utilizado para testar funcionalidades em desenvolvimento.
-   - `git checkout -b [nome_do_branch]`
-   - `git push --set-upstream origin [nome_do_branch]` subir a branch
-   - `git branch` lista todos os branches e em qual você está
-   - `git checkout [nome_do_branch]` ir para algum branch
-   - `git branch -D [nome_do_branch]` deleta um branch
-   - `git merge [nome_da_branch]` Mesclar o branch com o master
-   - `git rebase [nome_da_branch]` Aplica a modificação pro topo da lista de commits
+   # Creating a new Branch:
+   - `git checkout -b [branch_name]`
+   - `git push --set-upstream origin [nome_do_branch]` branch to remote
+   - `git branch` listing all lista the branches and in which you are
+   - `git checkout [nome_do_branch]` go for branch
+   - `git branch -D [nome_do_branch]` delete a branch
+   - `git merge [nome_da_branch]` merge branch with master 
+   - `git rebase [nome_da_branch]` to apply the modification to the top of the list in commits
 
    # Git Stash
-   Utilizado para guardar suas modificações(changes) em um ou mais arquivos, você só pode guardar uma versão de cada arquivo por branch.
-   - `git stash` guarda a modificação feita
-   - `git stash apply`  aplica as mudanças guardadas
-   - `git stash list` mostra a lista de todos os stash guardados
-   - `git stash clear` limpa o stash todo
+   Using for save your modifications in a or more files, you can only save a version of each file by branch.
+   - `git stash` save the modification made
+   - `git stash apply` apply changes saved
+   - `git stash list` show the list all stash saved
+   - `git stash clear` clear all stash
 
-   # Comandos Especiais:
-   - `git log` - mostra todos os commits e o author
-   - `git log --decorate` mostra qual branch foi para qual branch
-   - `git log --author="nome_do_author"` mostro todos os commits do author
-   - `git shortlog` mostra em orgem alfabetica quais são os autores, quantos commits fizeram
-   - `git log --graph` mostra em forma grafica o que tá acontecendo com as branchs
-   - `git show [rash]` mostra o que foi adicionado
-   - `git diff` detalhes da moficação feita.[utilizar antes do commit]
-   - `git diff --name-only` mostra somente o nome do arquivo modificado
-   - `git checkout [nome_do_arquivo]`: Retorna o arquivo para antes dele salvo
-      - `git reset HEAD [nome_do_arquivo]`
-   - `git reset --hard [rash]` volta para um commit específico
+   # Special Commands:
+   - `git log` - show all commits and the author
+   - `git log --decorate` show which branch went to for which branch
+   - `git log --author="author_name"` show all commits of author
+   - `git shortlog` show in alphabetical order which are authors, how many commits made
+   - `git log --graph` show in graphic form what happening with branches
+   - `git show [rash]` show what was added
+   - `git diff` modification details made.[use before commit]
+   - `git diff --name-only` show only file name modified
+   - `git checkout [file_name]`: returns the file for before he saved
+      - `git reset HEAD [file_name]`
+   - `git reset --hard [rash]` come back for a commit specific
    
