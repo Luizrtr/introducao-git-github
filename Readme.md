@@ -1,11 +1,11 @@
 # Git Course
-Este é um repositório teste para ensinar como o Git funciona.
+That is a repository for helping with the Git.
 
-# Comandos
-   Em seu terminal você pode digitar todos os comandos listados. Os comandos que começam com `git` necessitam da ferramenta [git](https://git-scm.com/downloads) instalada em sua máquina
-   # Criando o projeto:
-   - `mkdir [nome_da_pasta]` criando a pasta do projeto;
-   - `cd [nome_da_pasta]` entrando na pasta do projeto;
+# Commands
+   In your terminal you can enter all the list commands. The commands that start with `git` need a tool [git](https://git-scm.com/downloads) installed in your machine.
+   # Creating the project:
+   - `mkdir [folder_name]` criando a pasta do projeto;
+   - `cd [.]` entrando na pasta do projeto;
       * Use `cd ../` para voltar uma pasta
    - `git init` inicializando o repositório git;   
    
