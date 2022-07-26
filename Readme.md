@@ -1,5 +1,5 @@
 # Git Course
-That is a repository for helping with the Git.
+> That is a repository for helping with the Git.
 
 # Commands
    In your terminal you can enter all the list commands. The commands that start with `git` need a tool [git](https://git-scm.com/downloads) installed in your machine.
