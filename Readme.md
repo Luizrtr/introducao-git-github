@@ -7,7 +7,8 @@
    - `mkdir [folder_name]` creating the project folder;
    - `cd [.folder_name]` accessing the project folder;
       * Use `cd ../` to return the folder;
-   - `git init` starting the git repository;   
+   - `git init` starting the git repository;
+   - `git remote add [.name] [.url]` Add a new Remote to Repo;
    
    # Creating a new Branch:
    - `git checkout -b [branch_name]`
